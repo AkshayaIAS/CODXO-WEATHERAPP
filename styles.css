@@ -1,0 +1,80 @@
+
+body {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #acc2d8; 
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-image: url(background.jpg)
+;    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
+
+.weather-container {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.weather-header {
+  margin-bottom: 20px;
+}
+.weather-image
+ {
+  background-image: url('/Users/akshaya/Desktop/weather/images1.jpeg');
+}
+h1 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #16a085; 
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1abc9c; 
+
+.weather-info {
+  text-align: left;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5); 
+  border-radius: 5px;
+  color: #fff; 
+}
+
+.weather-icon {
+  display: block;
+  margin: 0 auto 10px;
+  font-size: 3em;
+}
+}
